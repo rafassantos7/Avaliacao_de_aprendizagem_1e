@@ -17,9 +17,9 @@ class Funcionario(Fisica):
 
     @abstractmethod
     def __str__(self) -> str:
-        return (f"Cpf: {self.cpf}"
+        return (f"{super().__str__()}"
+                f"\nCpf: {self.cpf}"
                 f"\nRg: {self.rg}"
                 f"\nMatricula: {self.matricula}"
-                f"\nSetor: {self.setor.name}"
-                f"\nSalario: {self.salario}"
-        )
+                f"\nSetor: {self.setor.nome}"
+                f"\nSalario: {self.salario}")

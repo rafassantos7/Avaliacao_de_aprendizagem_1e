@@ -1,6 +1,6 @@
-from atividade_aprendizagem.models.endereco import Endereco
-from atividade_aprendizagem.models.enums.estado_civil import EstadoCivil
-from atividade_aprendizagem.models.enums.sexo import Sexo
+from models.endereco import Endereco
+from models.enums.estado_civil import EstadoCivil
+from models.enums.sexo import Sexo
 from models.fisica import Fisica
 
 class Cliente(Fisica):

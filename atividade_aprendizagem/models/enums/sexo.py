@@ -5,5 +5,5 @@ class Sexo(Enum):
     FEMININO = ("F", "Feminino")
 
     def __init__(self,caractere: str,texto: str) -> None:
-        self.carctere = caractere
+        self.caractere = caractere
         self.texto = texto

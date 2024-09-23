@@ -1,4 +1,4 @@
-from atividade_aprendizagem.models.endereco import Endereco
+from models.endereco import Endereco
 from models.juridica import Juridica
 
 class PrestacaoServico(Juridica):

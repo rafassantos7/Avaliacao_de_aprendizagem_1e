@@ -11,7 +11,7 @@ class Endereco:
 
     def __str__(self) -> str:
         return (
-            f"Logradouro: {self.logradouro}"
+            f"\nLogradouro: {self.logradouro}"
             f"\nNumero: {self.numero}"
             f"\nComplemento: {self.complemento}"
             f"\nCep: {self.cep}"

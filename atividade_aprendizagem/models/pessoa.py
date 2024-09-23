@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-
+from models.endereco import Endereco
 
 class Pessoa(ABC):
     def __init__(self,nome: str, telefone: str, email: str, endereco: Endereco) -> None:
@@ -7,7 +7,6 @@ class Pessoa(ABC):
         self.telefone = telefone
         self.email = email
         self.endereco = endereco
-
 
 
     @abstractmethod

@@ -1,5 +1,5 @@
 import pytest
-from ..models.jobs.engenheiro import Engenheiro
+from ..models.engenheiro import Engenheiro
 from ..models.enums.estado_civil import EstadoCivil
 from ..models.endereco import Endereco
 from ..models.enums.sexo import Sexo

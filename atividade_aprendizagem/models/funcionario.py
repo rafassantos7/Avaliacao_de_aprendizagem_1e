@@ -5,8 +5,8 @@ from ..models.enums.sexo import Sexo
 from ..models.fisica import Fisica
 from ..models.enums.setor import Setor
 
-class Funcionario(Fisica):
-    def __init__(self,id: int, nome: str, telefone: str, email: str, endereco: Endereco, sexo: Sexo, estadoCivil: EstadoCivil, dataNascimento: str,cpf: str, rg: str,matricula: str,setor: Setor, salario: float) -> None:
+class Funcionario(Fisica,ABC):
+    def __init__(self, id: int, nome: str, telefone: str, email: str, endereco: Endereco, sexo: Sexo, estadoCivil: EstadoCivil, dataNascimento: str,cpf: str,rg: str, matricula: str, setor: Setor, salario: float) -> None:
         super().__init__(id, nome, telefone, email, endereco, sexo, estadoCivil, dataNascimento)
         self.cpf = cpf
         self.rg = rg

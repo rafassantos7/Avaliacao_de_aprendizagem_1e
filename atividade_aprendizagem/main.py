@@ -1,11 +1,11 @@
 import os
-from .models.engenheiro import Engenheiro
-from .models.endereco import Endereco
-from .models.fornecedor import Fornecedor
-from .models.enums.unidade_federativa import UnidadeFederativa
-from .models.enums.setor import Setor
-from .models.enums.sexo import Sexo
-from .models.enums.estado_civil import EstadoCivil
+from models.engenheiro import Engenheiro
+from models.endereco import Endereco
+from models.fornecedor import Fornecedor
+from models.enums.unidade_federativa import UnidadeFederativa
+from models.enums.setor import Setor
+from models.enums.sexo import Sexo
+from models.enums.estado_civil import EstadoCivil
 
 
 
